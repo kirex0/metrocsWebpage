@@ -1,0 +1,55 @@
+/* Reset default browser styling */
+body, h1, p, pre {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and set the font */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the heading */
+h1 {
+    color: #007BFF;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Style the image */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Style the paragraph */
+p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Style the link */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style the preformatted text */
+pre {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 1.2em;
+    color: #666;
+}
