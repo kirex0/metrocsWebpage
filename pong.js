@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         y: canvas.height / 2 - paddleHeight / 2,
         width: paddleWidth,
         height: paddleHeight,
-        color: '#000',
+        color: '#808080',
         dy: 0
     };
 
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         y: canvas.height / 2 - paddleHeight / 2,
         width: paddleWidth,
         height: paddleHeight,
-        color: '#000',
+        color: '#808080',
         dy: 2
     };
 
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
         size: ballSize,
         speedX: 3,
         speedY: 2,
-        color: '#000'
+        color: '#808080'
     };
 
     function draw() {
