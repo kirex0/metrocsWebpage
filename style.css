@@ -1,3 +1,4 @@
+
 /* Reset default browser styling */
 body, h1, p, pre {
     margin: 0;
@@ -52,4 +53,16 @@ pre {
     font-family: monospace;
     font-size: 1.2em;
     color: #666;
+}
+
+/* Pong animation container */
+#pong {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+    overflow: hidden;
+    z-index: 1;
 }
