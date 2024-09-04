@@ -3,6 +3,7 @@
 body, h1, p, pre {
     margin: 0;
     padding: 0;
+    background-color:
 }
 
 /* Apply a background color and set the font */
@@ -60,7 +61,7 @@ pre {
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 90%;
+    width: 100%;
     height: 200px;
     background-color: #000;
     overflow: hidden;
