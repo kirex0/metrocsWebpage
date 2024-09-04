@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         y: canvas.height / 2 - paddleHeight / 2,
         width: paddleWidth,
         height: paddleHeight,
-        color: '#fff',
+        color: '#000',
         dy: 0
     };
 
